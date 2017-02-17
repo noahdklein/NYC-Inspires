@@ -1,0 +1,1051 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic|Courgette);
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 ;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+
+
+.footer-container,
+.main aside {
+
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #000;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background-color: #fff;
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+}
+nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: .8em;
+    margin: 0 1.7%;
+    padding: 15px 1%;
+    margin-bottom: 0;
+   
+}
+h2{
+   font-size: 2em;
+}
+#ticker{
+    background: #a3d4db url("../img/blue_rice.png");
+}
+#ticker h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0 2% 0;
+    width: 90%;
+    text-align: center;
+}
+#InspireImage h1{
+    text-indent: -5000px;
+    background: #a3d4db url("../img/inspiredByHeaderImage.jpg") no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 0 0 0;
+    width: 100%;
+    height: auto; 
+    padding-bottom: 54%;
+
+}
+#About{
+    display: inline-block;
+    background: #a3d4db url("../img/blue_rice.png");
+    width: 100%;
+}
+#AboutL{
+width: 39%;
+background-color: #fff;
+float: left;
+}
+#AboutL img{
+    width: 100%;
+}
+#AboutR{
+width: 60%;
+
+text-align: center;
+margin-left: auto;
+
+}
+#AboutR h2{
+    width: 50%;
+    margin-left: auto;
+margin-right: auto;
+padding-top: 5%;
+}
+#AboutR p{
+    width: 80%;
+    line-height: 2.5;
+    margin-left: auto;
+margin-right: auto;
+font-size: 1em;
+}
+#TakeAction{
+width: 100%;
+padding: 5% 0;
+background: #000 url("../img/brown_rice.png");
+display: inline-block;
+color: #a3d4db;
+text-align: center;
+font-family: 'Lato', arial, sans-serif;
+}
+#TakeAction img{
+    width: 100px;
+    margin-top: 2%;
+}
+#TakeAction p{
+color: #fff;
+text-align: center;
+font-family: 'Lato', arial, sans-serif;
+padding-bottom: 2%;
+font-size: 1.2em;
+width: 94%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#TakeActionButton {
+text-align: center;
+text-transform: uppercase;
+font-family: 'Lato', arial, sans-serif;
+padding: 1% 4%;
+background-color: #DB4040;
+border-radius: 3%;
+color: #fff;
+text-decoration: none;
+display: inline-block;
+}
+.TakeActionSocialBlocks{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+#actionSocialShare{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1%;
+    margin-bottom: 2%;
+    vertical-align: top;
+}
+#actionSocialShare p{
+    color: #000;
+}
+#actionSocialShare a{
+    color: #000;
+    text-decoration: none;
+}
+#IAmNYCCulture{
+    width: 100%;
+    text-align: center;
+    background: #a3d4db url("../img/blue_rice.png");
+        margin-top: 0;
+    padding: 3% 0 3%;
+}
+#IAmNYCCulture h2{
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#IAmNYCCulture p{
+    width: 90%;
+    font-size: .9em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#showbutton{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.clutureBlocks{
+    width: 30%;
+   display: inline-block;
+   margin: 2% 1% 2%;
+   background: #fff url(../img/pink_rice.png) ;
+   vertical-align: top;
+
+}
+
+.clutureBlocks img{
+    width: 100%;
+    height: auto;
+
+}
+#Petition{
+    text-align: center;
+    width: 100%;
+    background: #a3d4db url("../img/blue_rice.png");
+        padding: 3% 0 35%;
+}
+#PetitionLetter{
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    height: 364px;
+}
+#PetitionLetter p{
+       margin-bottom: %;
+}
+#LetterContent{
+    float: left;
+    width: 100%;
+   padding: 1%;
+    text-align: left;
+    border: #000 2px solid;
+    margin-left: 5%;
+    margin-top: 0;
+    height: 400px;
+    overflow-y: scroll;
+}
+#PetitionForm{
+       text-align: center;
+    width: 698px;
+   
+    margin-right: 8%;
+    background: #a3d4db url("../img/blue_rice.png");
+    float: right;
+    padding: 1% 0 0;
+}
+#PetitionForm h2{
+    margin-top: 0;
+    padding: 2%;
+}
+#petition-thanks{
+    display: none;
+    text-align: center;
+    padding: 100px 0 175px;
+    background: #a3d4db url("../img/blue_rice.png");
+}
+#error,#email-error{
+    color:red;
+}
+#Petition button{
+    background-color: #DB4040;
+    width: 320px;
+    color: #fff;
+    padding: 12px 0 6px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    margin-right: 12px;
+    float: right;
+    border: 0;
+    margin-left: 5px;
+}
+#email, #street1{
+    width: 655px;
+    margin-bottom: 30px;
+    padding: 15px 10px 10px 10px;
+    border-radius: 6px;
+        border: 0;
+        margin-left: 5px;
+}
+#first_name,#last_name,#city,#zip{
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 15px 10px 11px 10px;
+    border-radius: 6px;
+    margin-right: 20px;
+    border: 0;
+}
+#last_name{
+    float: right;
+    margin-right: 12px;
+}
+#state {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 10px 8px 10px;
+    width: 320px;
+    float: right;
+    margin-right: 12px;
+}
+
+#state.init {
+color: #A09F9F;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.dot-container{
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    margin: auto;
+    width: 100%;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#ToolKit{
+    width: 100%;
+    text-align: center;
+    background: #000 url("../img/brown_rice.png");
+        padding: 3% 0 3%;
+        clear: both;
+}
+#ToolKit h2{
+    color: #a3d4db;
+    padding-top: 5%;
+    margin-top: 0;
+}
+#ToolKit p{
+    color: #fff;
+}
+#ToolKitBlockContainer{
+
+}
+
+.ToolKitBlocks{
+    width: 29%;
+   display: inline-block;
+   margin: 2% 2% 2%;
+   vertical-align: top;
+}
+.ToolKitBlocks a{
+    color: red;
+    text-transform: uppercase;
+    padding-top: 5%;
+    display: block;
+    text-decoration: none;
+}
+.ToolKitBlocks span{
+    color: #A3D4DB;
+    font-size: .7em;
+    vertical-align: bottom;
+}
+
+.ToolKitBlocks img{
+    width: 100%;
+    height: auto;
+
+}
+#CouncilVideo{
+    background: #a3d4db url("../img/blue_rice.png");
+    width: 100%;
+    text-align: center;
+    padding: 3% 0 3%;
+}
+#CouncilVideo h2{
+    margin: 0;
+}
+#VideoSection{
+     background: #a3d4db url("../img/blue_rice.png");
+     position: relative;
+     padding-bottom: 56.6%;
+     height: 0;
+
+}
+#VideoSection iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+#Movement{
+     width: 100%;
+    text-align: center;
+    background: #000 url("../img/brown_rice.png");
+    padding: 3% 0 3%;
+      
+}
+#Movement h2{
+    color: #a3d4db;
+    margin: 0;
+}
+.juicer-feed .j-stacker>* {
+    background-color: #000000;
+}
+#MediaPartners{
+    background: #a3d4db url("../img/blue_rice.png");
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: inline-block;
+        padding: 3% 0 3%;
+}
+#MediaPartners a{
+    
+    color: #000;
+}
+.MediaContacts{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*#Contact1{
+    float: left;
+
+}
+#Contact2{
+    float: right;
+}*/
+
+#PartnersHeader h1{
+    text-indent: -5000px;
+    background: #a3d4db url("../img/Inspired-By-partner-page.jpg") no-repeat;
+   -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+    margin: 0 0 0;
+    width: 100%;
+    height: auto; 
+    padding-bottom: 29%;
+
+}
+#PartnersList{
+  background: #a3d4db url("../img/blue_rice.png");
+  margin-top: 0;
+  padding-bottom: 3%;
+}
+#PartnersList ul{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    list-style: none;
+    margin-top: 0;
+    padding-top: 2%;
+    padding-left: 20%;
+    width: 80%;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+#PartnersList h2{
+    margin-top: 0;
+    padding-top: 3%;
+    text-align: center;
+}
+#PartnersList p{
+    margin-top: 0;
+    padding-top: 3%;
+    text-align: center;
+}
+#PartnersList a{
+    color: #DE0C0C;
+    }
+#homeLink{
+    background-color: #a3d4db;
+    margin: 0;
+    padding-bottom: 2%;
+}
+#homeLink h2{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+#homeLink a{
+    text-decoration: none;
+}
+#cultureLink a{
+    text-decoration: none;
+}
+footer p{
+    margin:0;
+    text-align: center;
+    font-size: .8em;
+    padding: 2% 0 2%;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 1450px) {
+#AboutR h2{
+    margin-bottom: 2%;
+}
+#AboutR p{
+    line-height: 2;
+}
+#PetitionLetter {
+    margin-left: 2%;  
+}
+#PetitionForm{
+    margin-right: 3%;
+}
+#Petition{
+    padding-bottom: 40%;
+}
+}
+
+
+@media only screen and (max-width: 1240px) {
+.wrapper {
+    margin: 0; 
+}
+#AboutR p{
+    width: 88%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#PetitionLetter {
+    margin-left: 1%;  
+}
+#PetitionForm{
+    margin-right: 1%;
+}
+#Petition{
+    padding-bottom: 45%;
+}
+}
+@media only screen and (max-width: 1045px) {
+    nav a{
+    margin: 0;
+}
+
+    #AboutL {
+    display: none;
+}
+#AboutR{
+    width: 100%;
+}
+#AboutR p{
+    padding-bottom: 2%;
+}
+#Petition{
+   padding-bottom: 3%
+    }
+
+    #LetterContent{
+    margin: 0 0 5% 0;
+}
+#PetitionLetter {
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#PetitionForm{
+        float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+}
+/*    .clutureBlocks {
+    width: 55%;
+    display: block;
+    margin: 5% 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+}
+
+
+@media only screen and (max-width: 680px) {
+    
+header{
+    display: none;
+}
+    .TakeActionSocialBlocks{
+        width: 80%;
+            display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #actionSocialShare{
+        width: 100%;
+    }
+    .clutureBlocks {
+    width: 90%;
+    display: block;
+    margin: 5% 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Petition{
+    padding-bottom: 40%;
+}
+
+  #PetitionForm{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+        padding-bottom: 5%;
+    float: right;
+}
+
+  #Petition button{
+    width: 95.5%;
+    float: none;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#email, #street1, #first_name, #last_name,#city,#zip{
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 15px 10px 11px 10px;
+    float: none;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#state {
+    border: 0;
+    width: 95.5%;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    
+  
+}
+#ToolKit{
+    clear: both;
+}
+.ToolKitBlocks {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#Contact1{
+    float: none;
+    padding-bottom: 2%
+
+}
+#Contact2{
+    float: none;
+}
+#MediaPartners p{
+    width: 95%;
+}
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+  
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+/*    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }*/
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+ /*   .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+       
+    }*/
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+/*    .wrapper {
+        
+        margin: 0 auto;
+    }*/
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
