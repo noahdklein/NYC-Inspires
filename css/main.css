@@ -193,10 +193,10 @@ h2{
 #InspireImage h1{
     text-indent: -5000px;
     background: #a3d4db url("../img/inspiredByHeaderImage.jpg") no-repeat;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0 0 0;
     width: 100%;
     height: auto; 
@@ -209,55 +209,53 @@ h2{
     width: 100%;
 }
 #AboutL{
-width: 39%;
-background-color: #fff;
-float: left;
+    width: 39%;
+    background-color: #fff;
+    float: left;
 }
 #AboutL img{
     width: 100%;
 }
 #AboutR{
-width: 60%;
-
-text-align: center;
-margin-left: auto;
-
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
 }
 #AboutR h2{
     width: 50%;
     margin-left: auto;
-margin-right: auto;
-padding-top: 5%;
+    margin-right: auto;
+    padding-top: 5%;
 }
 #AboutR p{
     width: 80%;
     line-height: 2.5;
     margin-left: auto;
-margin-right: auto;
-font-size: 1em;
+    margin-right: auto;
+    font-size: 1em;
 }
 #TakeAction{
-width: 100%;
-padding: 5% 0;
-background: #000 url("../img/brown_rice.png");
-display: inline-block;
-color: #a3d4db;
-text-align: center;
-font-family: 'Lato', arial, sans-serif;
+    width: 100%;
+    padding: 5% 0;
+    background: #000 url("../img/brown_rice.png");
+    display: inline-block;
+    color: #a3d4db;
+    text-align: center;
+    font-family: 'Lato', arial, sans-serif;
 }
 #TakeAction img{
     width: 100px;
     margin-top: 2%;
 }
 #TakeAction p{
-color: #fff;
-text-align: center;
-font-family: 'Lato', arial, sans-serif;
-padding-bottom: 2%;
-font-size: 1.2em;
-width: 94%;
-margin-left: auto;
-margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', arial, sans-serif;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #district-link a{
     color: #A3D4E1;
@@ -268,15 +266,15 @@ margin-right: auto;
     text-decoration: none;
 }
 #TakeActionButton {
-text-align: center;
-text-transform: uppercase;
-font-family: 'Lato', arial, sans-serif;
-padding: 1% 4%;
-background-color: #DB4040;
-border-radius: 3%;
-color: #fff;
-text-decoration: none;
-display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', arial, sans-serif;
+    padding: 1% 4%;
+    background-color: #DB4040;
+    border-radius: 3%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
 }
 .TakeActionSocialBlocks{
     display: inline-block;
@@ -321,11 +319,10 @@ display: inline-block;
     width: 100%;
     text-align: center;
     background: #a3d4db url("../img/blue_rice.png");
-        margin-top: 0;
+    margin-top: 0;
     padding: 3% 0 3%;
 }
 #IAmNYCCulture h2{
-   
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -343,23 +340,20 @@ display: inline-block;
 }
 .clutureBlocks{
     width: 30%;
-   display: inline-block;
-   margin: 2% 1% 2%;
-   background: #fff url(../img/pink_rice.png) ;
-   vertical-align: top;
-
+    display: inline-block;
+    margin: 2% 1% 2%;
+    background: #fff url(../img/pink_rice.png) ;
+    vertical-align: top;
 }
-
 .clutureBlocks img{
     width: 100%;
     height: auto;
-
 }
 #Petition{
     text-align: center;
     width: 100%;
     background: #a3d4db url("../img/blue_rice.png");
-        padding: 3% 0 35%;
+    padding: 3% 0 35%;
 }
 #PetitionLetter{
     float: left;
@@ -369,12 +363,12 @@ display: inline-block;
     height: 364px;
 }
 #PetitionLetter p{
-       margin-bottom: %;
+    margin-bottom: %;
 }
 #LetterContent{
     float: left;
     width: 100%;
-   padding: 1%;
+    padding: 1%;
     text-align: left;
     border: #000 2px solid;
     margin-left: 5%;
@@ -383,9 +377,8 @@ display: inline-block;
     overflow-y: scroll;
 }
 #PetitionForm{
-       text-align: center;
+    text-align: center;
     width: 698px;
-   
     margin-right: 8%;
     background: #a3d4db url("../img/blue_rice.png");
     float: right;
@@ -421,8 +414,8 @@ display: inline-block;
     margin-bottom: 30px;
     padding: 15px 10px 10px 10px;
     border-radius: 6px;
-        border: 0;
-        margin-left: 5px;
+    border: 0;
+    margin-left: 5px;
 }
 #first_name,#last_name,#city,#zip{
     width: 300px;
@@ -449,42 +442,39 @@ display: inline-block;
 }
 
 #state.init {
-color: #A09F9F;
+    color: #A09F9F;
 }
 /* Slideshow container */
 .slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
+    width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
-
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -493,7 +483,6 @@ color: #A09F9F;
   position: absolute;
   top: 0;
 }
-
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
@@ -505,7 +494,6 @@ color: #A09F9F;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -516,20 +504,18 @@ color: #A09F9F;
     margin: auto;
     width: 100%;
 }
-
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {opacity: .4} 
+    to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -538,8 +524,8 @@ color: #A09F9F;
     width: 100%;
     text-align: center;
     background: #000 url("../img/brown_rice.png");
-        padding: 3% 0 3%;
-        clear: both;
+    padding: 3% 0 3%;
+    clear: both;
 }
 #ToolKit h2{
     color: #a3d4db;
@@ -555,9 +541,9 @@ color: #A09F9F;
 
 .ToolKitBlocks{
     width: 29%;
-   display: inline-block;
-   margin: 2% 2% 2%;
-   vertical-align: top;
+    display: inline-block;
+    margin: 2% 2% 2%;
+    vertical-align: top;
 }
 .ToolKitBlocks a{
     color: red;
@@ -575,7 +561,6 @@ color: #A09F9F;
 .ToolKitBlocks img{
     width: 100%;
     height: auto;
-
 }
 #CouncilVideo{
     background: #a3d4db url("../img/blue_rice.png");
@@ -587,11 +572,10 @@ color: #A09F9F;
     margin: 0;
 }
 #VideoSection{
-     background: #a3d4db url("../img/blue_rice.png");
-     position: relative;
-     padding-bottom: 56.6%;
-     height: 0;
-
+    background: #a3d4db url("../img/blue_rice.png");
+    position: relative;
+    padding-bottom: 56.6%;
+    height: 0;
 }
 #VideoSection iframe{
     position: absolute;
@@ -599,14 +583,12 @@ color: #A09F9F;
     left: 0;
     width: 100%;
     height: 100%;
-
 }
 #Movement{
-     width: 100%;
+    width: 100%;
     text-align: center;
     background: #000 url("../img/brown_rice.png");
-    padding: 3% 0 3%;
-      
+    padding: 3% 0 3%;  
 }
 #Movement h2{
     color: #a3d4db;
@@ -621,10 +603,9 @@ color: #A09F9F;
     text-align: center;
     float: none;
     display: inline-block;
-        padding: 3% 0 3%;
+    padding: 3% 0 3%;
 }
 #MediaPartners a{
-    
     color: #000;
 }
 .MediaContacts{
@@ -634,29 +615,26 @@ color: #A09F9F;
 }
 /*#Contact1{
     float: left;
-
 }
 #Contact2{
     float: right;
 }*/
-
 #PartnersHeader h1{
     text-indent: -5000px;
     background: #a3d4db url("../img/Inspired-By-partner-page.jpg") no-repeat;
-   -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     margin: 0 0 0;
     width: 100%;
     height: auto; 
     padding-bottom: 29%;
-
 }
 #PartnersList{
-  background: #a3d4db url("../img/blue_rice.png");
-  margin-top: 0;
-  padding-bottom: 3%;
+    background: #a3d4db url("../img/blue_rice.png");
+    margin-top: 0;
+    padding-bottom: 3%;
 }
 #PartnersList ul{
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -668,9 +646,9 @@ color: #A09F9F;
     padding-left: 20%;
     width: 80%;
     margin-left: auto;
-  margin-right: auto;
-  font-size: 1.2em;
-  line-height: 1.6;
+    margin-right: auto;
+    font-size: 1.2em;
+    line-height: 1.6;
 }
 #PartnersList h2{
     margin-top: 0;
@@ -728,8 +706,6 @@ footer p{
     padding-bottom: 40%;
 }
 }
-
-
 @media only screen and (max-width: 1240px) {
 .wrapper {
     margin: 0; 
@@ -753,7 +729,6 @@ footer p{
     nav a{
     margin: 0;
 }
-
     #AboutL {
     display: none;
 }
@@ -766,7 +741,6 @@ footer p{
 #Petition{
    padding-bottom: 3%
     }
-
     #LetterContent{
     margin: 0 0 5% 0;
 }
@@ -790,21 +764,18 @@ footer p{
     margin-right: auto;
 }*/
 }
-
-
 @media only screen and (max-width: 680px) {
-    
 header{
     display: none;
 }
     .TakeActionSocialBlocks{
-        width: 80%;
-            display: block;
+    width: 80%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     }
     #actionSocialShare{
-        width: 100%;
+    width: 100%;
     }
     .clutureBlocks {
     width: 90%;
@@ -813,20 +784,17 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
 #Petition{
     padding-bottom: 40%;
 }
-
   #PetitionForm{
     text-align: center;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-        padding-bottom: 5%;
+    padding-bottom: 5%;
     float: right;
 }
-
   #Petition button{
     width: 95.5%;
     float: none;
@@ -839,10 +807,8 @@ header{
     margin-bottom: 30px;
     padding: 15px 10px 11px 10px;
     float: none;
-
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #state {
@@ -852,8 +818,6 @@ header{
     margin-left: auto;
     margin-right: auto;
     float: none;
-    
-  
 }
 #ToolKit{
     clear: both;
@@ -863,12 +827,10 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 #Contact1{
     float: none;
     padding-bottom: 2%
-
 }
 #Contact2{
     float: none;
@@ -877,14 +839,11 @@ header{
     width: 95%;
 }
 }
-
 @media only screen and (min-width: 480px) {
 
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
-  
     nav li:first-child a {
         margin-left: 0;
     }
@@ -892,13 +851,9 @@ header{
     nav li:last-child a {
         margin-right: 0;
     }
-
-
-
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
-
     nav ul li {
         display: inline;
     }
@@ -907,9 +862,7 @@ header{
         margin: 0 0.7%;
     }
 }
-
 @media only screen and (min-width: 768px) {
-
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
@@ -948,7 +901,6 @@ header{
         width: 28%;
     }
 }
-
 @media only screen and (min-width: 1140px) {
 
 /* ===============
@@ -960,11 +912,9 @@ header{
         margin: 0 auto;
     }*/
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -980,7 +930,6 @@ header{
     position: absolute;
     width: 1px;
 }
-
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -990,25 +939,20 @@ header{
     position: static;
     width: auto;
 }
-
 .invisible {
     visibility: hidden;
 }
-
 .clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
 }
-
 .clearfix:after {
     clear: both;
 }
-
 .clearfix {
     *zoom: 1;
 }
-
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -1022,7 +966,6 @@ header{
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
