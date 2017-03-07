@@ -152,7 +152,7 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: #fff;
+    background-color: gainsboro;
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
