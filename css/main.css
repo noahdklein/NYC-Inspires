@@ -243,23 +243,32 @@ h2{
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
 }
-#TakeAction img{
+/*#TakeAction img{
     width: 100px;
     margin-top: 2%;
-}
+}*/
 #TakeAction p{
     color: #fff;
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
-    padding-bottom: 2%;
     font-size: 1.2em;
     width: 94%;
     margin-left: auto;
     margin-right: auto;
 }
-#district-link a{
+#district-link{
     color: #A3D4E1;
     text-decoration: none;
+}
+.council-social-icons{
+    margin-left: 10px;
+    margin-top: -4px;
+}
+#sample-letter p{
+    text-align: left;
+    width: 60%;
+     color: #A3D4E1;
+    font-size: 14px;
 }
 .rep-show-hide a{
     color: #A3D4E1;
@@ -276,12 +285,6 @@ h2{
     text-decoration: none;
     display: inline-block;
 }
-.TakeActionSocialBlocks{
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-    padding-bottom: 3%;
-}
 #districtRep{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -297,7 +300,14 @@ h2{
     padding: 10px 25px 8px 25px;
     font-size: 1.2em;
 }
-#actionSocialShare{
+select{
+     text-align-last:center;
+}
+.contact-instructions{
+    color: #A3D4E1;
+    font-size: 14px;
+}
+#SocialShare{
     width: 70%;
     text-align: center;
     margin-left: auto;
@@ -308,10 +318,10 @@ h2{
     margin-bottom: 2%;
     vertical-align: top;
 }
-#actionSocialShare p{
+#SocialShare p{
     color: #000;
 }
-#actionSocialShare a{
+#SocialShare a{
     color: #000;
     text-decoration: none;
 }
@@ -561,6 +571,34 @@ h2{
 .ToolKitBlocks img{
     width: 100%;
     height: auto;
+}
+#SocialMedia{
+    width: 100%;
+    padding: 5% 0;
+    background: #a3d4db url("../img/blue_rice.png");
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', arial, sans-serif;
+}
+#SocialMedia img{
+    width: 100px;
+    margin-top: 2%;
+}
+#SocialMedia p{
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', arial, sans-serif;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SocialBlocks{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-bottom: 3%;
 }
 #CouncilVideo{
     background: #a3d4db url("../img/blue_rice.png");
