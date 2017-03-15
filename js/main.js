@@ -8,15 +8,12 @@ $(function(){
 		    return results[1] || 0;
 		    }
     	}
-    
     if ($.urlParam('email')) {
 	    $("#email").val($.urlParam('email').replace('%40','@'));    
 		}
-	
 	// if ($.urlParam('survey_id')) {
 	//     $("#SURVEY_ID").val($.urlParam('survey_id'));    
 	// 	}
-	
 	$("#petition-submit").on("click",function(e){		
 		e.preventDefault();
 		var first = $("#first_name").val();
@@ -29,7 +26,6 @@ $(function(){
 		// var surveyID = $("#SURVEY_ID").val();
 		var errorBlock = $("#error");
 		var errorCount = 0;
-		
 		$("#first_name").removeClass("error");
 		$("#last_name").removeClass("error");
 		$("#email").removeClass("error");
@@ -89,14 +85,13 @@ $(function(){
 					})
 					.always(function(){
 					 	$("#PetitionForm").animate({ opacity: 0 }, 150, function(){
-						 	$("#PetitionForm").hide();
-						 	$("#petition-thanks").css({ opacity: 0 }).show().animate({ opacity: 1 }, 150);
+						$("#PetitionForm").hide();
+						$("#petition-thanks").css({ opacity: 0 }).show().animate({ opacity: 1 }, 150);
 					 	});
 					});
 				}
 			}
 		});
-	
 	$("#state").on("change",function(e){
 		if ($(this).val() != "State") {
 			$(this).removeClass("init");
@@ -106,7 +101,6 @@ $(function(){
 			$(this).addClass("init");
 		}
 	});
-	
 	function isValidEmail(str) {
 	   	var filter=/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
 	   	if (filter.test(str)) {
@@ -117,29 +111,24 @@ $(function(){
 			}
 		}
 	});
-
 // Culture Stories show/hide
 $(document).ready(function(){
-    $("#MoreIAmNYCCulture").hide(); 
-    $("#showbutton").click(function(){
-        $("#MoreIAmNYCCulture").slideToggle(500);
-          $(this).text($(this).text() == 'More Stories' ? 'Hide Stories' : 'More Stories'); 
-              return false;
-    });
+$("#MoreIAmNYCCulture").hide(); 
+$("#showbutton").click(function(){
+$("#MoreIAmNYCCulture").slideToggle(500);
+$(this).text($(this).text() == 'More Stories' ? 'Hide Stories' : 'More Stories'); 
+return false;
 });
-
+});
 // Slideshow
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -155,3 +144,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+// council member dropdown
+$('.rep-show-hide').hide();
+	$('#districtRep').change(function(){
+	$(this).find("option").each(function()
+	{
+	$('#' + this.value).hide();
+	});
+	    $('#' + this.value).show();
+});
