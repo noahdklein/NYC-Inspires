@@ -153,3 +153,13 @@ $('.rep-show-hide').hide();
 	});
 	    $('#' + this.value).show();
 });
+// ga tracking
+$('#districtRep').on('click',function(){
+ga('send', 'event', 'select', 'click', 'District Select');
+});
+$('.twitterRepLink').on('click',function(){
+ga('send', 'event', 'link', 'click', 'Twitter Link');
+});
+$('.emailRepLink').on('click',function(){
+ga('send', 'event', 'link', 'click', 'Email Link');
+});
