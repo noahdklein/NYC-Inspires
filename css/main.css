@@ -181,6 +181,15 @@ h2{
 #ticker{
     background: #a3d4db url("../img/blue_rice.png");
 }
+#ticker h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0 0 0;
+    width: 90%;
+    text-align: center;
+}
 #ticker h3{
     margin-top: 0;
     margin-bottom: 0;
@@ -189,6 +198,18 @@ h2{
     padding: 2% 0 2% 0;
     width: 90%;
     text-align: center;
+}
+#ticker a{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    padding-top: 1%;
+    font-size: 1.2em;
 }
 #InspireImage h1{
     text-indent: -5000px;
