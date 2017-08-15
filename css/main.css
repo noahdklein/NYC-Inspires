@@ -254,7 +254,7 @@ h2{
     margin-right: auto;
     font-size: 1em;
 }
-#TakeAction{
+#Update{
     width: 100%;
     padding: 5% 0;
     background: #000 url("../img/brown_rice.png");
@@ -263,11 +263,11 @@ h2{
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
 }
-/*#TakeAction img{
+/*#Update img{
     width: 100px;
     margin-top: 2%;
 }*/
-#TakeAction p{
+#Update p{
     color: #fff;
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
@@ -275,6 +275,9 @@ h2{
     width: 94%;
     margin-left: auto;
     margin-right: auto;
+}
+#Update a{
+    color: #fff;
 }
 #district-link{
     color: #A3D4E1;
