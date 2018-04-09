@@ -212,7 +212,7 @@ h2{
 }
 #InspireImage h1{
     text-indent: -5000px;
-    background: #a3d4db url("../img/inspiredByHeaderImage.jpg") no-repeat;
+    background: #a3d4db url("../img/NYC-Inspires-header-2018.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -229,7 +229,7 @@ h2{
     width: 100%;
 }
 #AboutL{
-    width: 39%;
+    width: 45%;
     background-color: #fff;
     float: left;
 }
@@ -237,7 +237,7 @@ h2{
     width: 100%;
 }
 #AboutR{
-    width: 60%;
+    width: 55%;
     text-align: center;
     margin-left: auto;
 }
@@ -595,6 +595,36 @@ select{
     width: 100%;
     height: auto;
 }
+.SocialKitBlocks #SocialInstagram {
+    width: 75% !important;
+}
+.SocialKitBlocks{
+    width: 29%;
+    display: inline-block;
+    margin: 2% 2% 2%;
+    vertical-align: top;
+}
+.SocialKitBlocks a{
+    color: red;
+    text-transform: uppercase;
+    padding-top: 5%;
+    display: block;
+    text-decoration: none;
+}
+.SocialKitBlocks span{
+    color: #000;
+    font-size: .7em;
+    vertical-align: bottom;
+}
+#SocialMedia .SocialKitBlocks img{
+    width: 100%;
+    height: auto;
+}
+#SocialMedia .SocialKitBlocks img{
+    width: 100%;
+    height: auto;
+} 
+
 #SocialMedia{
     width: 100%;
     padding: 5% 0;
@@ -623,6 +653,7 @@ select{
     vertical-align: top;
     padding-bottom: 3%;
 }
+
 #CouncilVideo{
     background: #a3d4db url("../img/blue_rice.png");
     width: 100%;
@@ -839,7 +870,7 @@ header{
     width: 100%;
     }
     .clutureBlocks {
-    width: 90%;
+    width: 80%;
     display: block;
     margin: 5% 2% 2%;
     margin-left: auto;
