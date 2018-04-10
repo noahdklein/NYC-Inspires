@@ -53,40 +53,6 @@ textarea {
 }
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
-
-.wrapper {
-    width: 100%;
-    margin: 0 ;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-
-
-.footer-container,
-.main aside {
-
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #000;
-}
-
-.title {
-    color: white;
-}
-
 /* ==============
     MOBILE: Menu
    ============== */
@@ -151,22 +117,29 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+body {
     background-color: gainsboro;
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
 }
-header{
+
+header {
     width: 100%;
 }
+
+.header-container {
+    background-color: #222;
+
+}
+
 nav {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-nav a{
+nav a {
     display: inline-block;
     font-family: 'Lato', arial, sans-serif;
     font-size: .8em;
@@ -175,42 +148,12 @@ nav a{
     margin-bottom: 0;
    
 }
-h2{
+
+h2 {
    font-size: 2em;
 }
-#ticker{
-    background: #a3d4db url("../img/blue_rice.png");
-}
-#ticker h2{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 0 0 0;
-    width: 90%;
-    text-align: center;
-}
-#ticker h3{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 0 2% 0;
-    width: 90%;
-    text-align: center;
-}
-#ticker a{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 1%;
-    font-size: 1.2em;
-}
-#InspireImage h1{
+
+#InspireImage h1 {
     text-indent: -5000px;
     background: #a3d4db url("../img/NYC-Inspires-header-2018.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -223,38 +166,44 @@ h2{
     padding-bottom: 54%;
 
 }
-#About{
+
+#About {
     display: inline-block;
     background: #a3d4db url("../img/blue_rice.png");
     width: 100%;
 }
-#AboutL{
+
+#AboutL {
     width: 45%;
     background-color: #fff;
     float: left;
 }
-#AboutL img{
+#AboutL img {
     width: 100%;
 }
-#AboutR{
+
+#AboutR {
     width: 55%;
     text-align: center;
     margin-left: auto;
 }
+
 #AboutR h2{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
 }
-#AboutR p{
+
+#AboutR p {
     width: 80%;
     line-height: 2.5;
     margin-left: auto;
     margin-right: auto;
     font-size: 1em;
 }
-#Update{
+
+#Update {
     width: 100%;
     padding: 5% 0;
     background: #000 url("../img/brown_rice.png");
@@ -263,11 +212,8 @@ h2{
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
 }
-/*#Update img{
-    width: 100px;
-    margin-top: 2%;
-}*/
-#Update p{
+
+#Update p {
     color: #fff;
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
@@ -276,207 +222,51 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-#Update a{
+
+#Update a {
     color: #fff;
 }
-#district-link{
-    color: #A3D4E1;
-    text-decoration: none;
-}
-.council-social-icons{
-    margin-left: 10px;
-    margin-top: -4px;
-}
-#sample-letter p{
-    text-align: left;
-    width: 60%;
-     color: #A3D4E1;
-    font-size: 14px;
-}
-.rep-show-hide a{
-    color: #A3D4E1;
-    text-decoration: none;
-}
-#TakeActionButton {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Lato', arial, sans-serif;
-    padding: 1% 4%;
-    background-color: #DB4040;
-    border-radius: 3%;
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-}
-#districtRep{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -O-apperance: none;
-    color: #000;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-bottom: 2%;
-    padding: 10px 25px 8px 25px;
-    font-size: 1.2em;
-}
-select{
-     text-align-last:center;
-}
-.contact-instructions{
-    color: #A3D4E1;
-    font-size: 14px;
-}
-#SocialShare{
-    width: 70%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 6px;
-    padding: 1%;
-    margin-bottom: 2%;
-    vertical-align: top;
-}
-#SocialShare p{
-    color: #000;
-}
-#SocialShare a{
-    color: #000;
-    text-decoration: none;
-}
-#IAmNYCCulture{
+
+#IAmNYCCulture {
     width: 100%;
     text-align: center;
     background: #a3d4db url("../img/blue_rice.png");
     margin-top: 0;
     padding: 3% 0 3%;
 }
-#IAmNYCCulture h2{
+
+#IAmNYCCulture h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-#IAmNYCCulture p{
+
+#IAmNYCCulture p {
     width: 90%;
     font-size: .9em;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-#showbutton{
+
+#showbutton {
     text-decoration: underline;
     cursor: pointer;
 }
-.clutureBlocks{
+
+.clutureBlocks {
     width: 30%;
     display: inline-block;
     margin: 2% 1% 2%;
     background: #fff url(../img/pink_rice.png) ;
     vertical-align: top;
 }
-.clutureBlocks img{
+
+.clutureBlocks img {
     width: 100%;
     height: auto;
 }
-#Petition{
-    text-align: center;
-    width: 100%;
-    background: #a3d4db url("../img/blue_rice.png");
-    padding: 3% 0 35%;
-}
-#PetitionLetter{
-    float: left;
-    width: 35%;
-    margin-left: 5%;
-    margin-top: 1%;
-    height: 364px;
-}
-#PetitionLetter p{
-    margin-bottom: %;
-}
-#LetterContent{
-    float: left;
-    width: 100%;
-    padding: 1%;
-    text-align: left;
-    border: #000 2px solid;
-    margin-left: 5%;
-    margin-top: 0;
-    height: 400px;
-    overflow-y: scroll;
-}
-#PetitionForm{
-    text-align: center;
-    width: 698px;
-    margin-right: 8%;
-    background: #a3d4db url("../img/blue_rice.png");
-    float: right;
-    padding: 1% 0 0;
-}
-#PetitionForm h2{
-    margin-top: 0;
-    padding: 2%;
-}
-#petition-thanks{
-    display: none;
-    text-align: center;
-    padding: 100px 0 175px;
-    background: #a3d4db url("../img/blue_rice.png");
-}
-#error,#email-error{
-    color:red;
-}
-#Petition button{
-    background-color: #DB4040;
-    width: 320px;
-    color: #fff;
-    padding: 12px 0 6px 10px;
-    border-radius: 6px;
-    text-transform: uppercase;
-    margin-right: 12px;
-    float: right;
-    border: 0;
-    margin-left: 5px;
-}
-#email, #street1{
-    width: 655px;
-    margin-bottom: 30px;
-    padding: 15px 10px 10px 10px;
-    border-radius: 6px;
-    border: 0;
-    margin-left: 5px;
-}
-#first_name,#last_name,#city,#zip{
-    width: 300px;
-    margin-bottom: 30px;
-    padding: 15px 10px 11px 10px;
-    border-radius: 6px;
-    margin-right: 20px;
-    border: 0;
-}
-#last_name{
-    float: right;
-    margin-right: 12px;
-}
-#state {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 0;
-    border-radius: 6px;
-    padding: 10px 10px 8px 10px;
-    width: 320px;
-    float: right;
-    margin-right: 12px;
-}
 
-#state.init {
-    color: #A09F9F;
-}
 /* Slideshow container */
 .slideshow-container {
     width: 100%;
@@ -498,7 +288,6 @@ select{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
 }
-
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -527,10 +316,11 @@ select{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active, .dot:hover {
   background-color: #717171;
 }
-.dot-container{
+.dot-container {
     text-align: center;
     position: absolute;
     top: 95%;
@@ -553,57 +343,38 @@ select{
   from {opacity: .4} 
   to {opacity: 1}
 }
-#ToolKit{
-    width: 100%;
+
+#SocialShare {
+    width: 70%;
     text-align: center;
-    background: #000 url("../img/brown_rice.png");
-    padding: 3% 0 3%;
-    clear: both;
-}
-#ToolKit h2{
-    color: #a3d4db;
-    padding-top: 5%;
-    margin-top: 0;
-}
-#ToolKit p{
-    color: #fff;
-}
-#ToolKitBlockContainer{
-
-}
-
-.ToolKitBlocks{
-    width: 29%;
-    display: inline-block;
-    margin: 2% 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1%;
+    margin-bottom: 2%;
     vertical-align: top;
 }
-.ToolKitBlocks a{
-    color: red;
-    text-transform: uppercase;
-    padding-top: 5%;
-    display: block;
-    text-decoration: none;
-}
-.ToolKitBlocks span{
-    color: #A3D4DB;
-    font-size: .7em;
-    vertical-align: bottom;
+
+#SocialShare p {
+    color: #000;
 }
 
-.ToolKitBlocks img{
-    width: 100%;
-    height: auto;
+#SocialShare a {
+    color: #000;
+    text-decoration: none;
 }
+
 .SocialKitBlocks #SocialInstagram {
     width: 75% !important;
 }
-.SocialKitBlocks{
+.SocialKitBlocks  {
     width: 29%;
     display: inline-block;
     margin: 2% 2% 2%;
     vertical-align: top;
 }
+
 .SocialKitBlocks a{
     color: red;
     text-transform: uppercase;
@@ -616,6 +387,7 @@ select{
     font-size: .7em;
     vertical-align: bottom;
 }
+
 #SocialMedia .SocialKitBlocks img{
     width: 100%;
     height: auto;
@@ -625,7 +397,7 @@ select{
     height: auto;
 } 
 
-#SocialMedia{
+#SocialMedia {
     width: 100%;
     padding: 5% 0;
     background: #a3d4db url("../img/blue_rice.png");
@@ -633,11 +405,13 @@ select{
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
 }
-#SocialMedia img{
+
+#SocialMedia img {
     width: 100px;
     margin-top: 2%;
 }
-#SocialMedia p{
+
+#SocialMedia p {
     color: #000;
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
@@ -647,71 +421,88 @@ select{
     margin-left: auto;
     margin-right: auto;
 }
-.SocialBlocks{
+
+.SocialBlocks {
     display: inline-block;
     width: 49%;
     vertical-align: top;
     padding-bottom: 3%;
 }
 
-#CouncilVideo{
+#TakeActionButton {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', arial, sans-serif;
+    padding: 1% 4%;
+    background-color: #DB4040;
+    border-radius: 3%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#CouncilVideo {
     background: #a3d4db url("../img/blue_rice.png");
     width: 100%;
     text-align: center;
     padding: 3% 0 3%;
 }
-#CouncilVideo h2{
+
+#CouncilVideo h2 {
     margin: 0;
 }
-#VideoSection{
+
+#VideoSection {
     background: #a3d4db url("../img/blue_rice.png");
     position: relative;
     padding-bottom: 56.6%;
     height: 0;
 }
-#VideoSection iframe{
+
+#VideoSection iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-#Movement{
+
+#Movement {
     width: 100%;
     text-align: center;
     background: #000 url("../img/brown_rice.png");
     padding: 3% 0 3%;  
 }
-#Movement h2{
+
+#Movement h2 {
     color: #a3d4db;
     margin: 0;
 }
+
 .juicer-feed .j-stacker>* {
     background-color: #000000;
 }
-#MediaPartners{
+
+#MediaPartners {
     background: #a3d4db url("../img/blue_rice.png");
     width: 100%;
     text-align: center;
     float: none;
     display: inline-block;
     padding: 3% 0 3%;
-}
-#MediaPartners a{
+} 
+
+#MediaPartners a {
     color: #000;
 }
-.MediaContacts{
+
+.MediaContacts {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-/*#Contact1{
-    float: left;
-}
-#Contact2{
-    float: right;
-}*/
-#PartnersHeader h1{
+
+#PartnersHeader h1 {
     text-indent: -5000px;
     background: #a3d4db url("../img/Inspired-By-partner-page.jpg") no-repeat;
     -webkit-background-size: contain;
@@ -723,12 +514,14 @@ select{
     height: auto; 
     padding-bottom: 29%;
 }
-#PartnersList{
+
+#PartnersList {
     background: #a3d4db url("../img/blue_rice.png");
     margin-top: 0;
     padding-bottom: 3%;
 }
-#PartnersList ul{
+
+#PartnersList ul {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -742,37 +535,45 @@ select{
     font-size: 1.2em;
     line-height: 1.6;
 }
-#PartnersList h2{
+
+#PartnersList h2 {
     margin-top: 0;
     padding-top: 3%;
     text-align: center;
 }
+
 #PartnersList p{
     margin-top: 0;
     padding-top: 3%;
     text-align: center;
 }
-#PartnersList a{
+
+#PartnersList a {
     color: #DE0C0C;
-    }
-#homeLink{
+}
+
+#homeLink {
     background-color: #a3d4db;
     margin: 0;
     padding-bottom: 2%;
 }
-#homeLink h2{
+
+#homeLink h2 {
     margin-top: 0;
     width: 100%;
     text-align: center;
     text-decoration: none;
 }
-#homeLink a{
+
+#homeLink a {
     text-decoration: none;
 }
-#cultureLink a{
+
+#cultureLink a {
     text-decoration: none;
 }
-footer p{
+
+footer p {
     margin:0;
     text-align: center;
     font-size: .8em;
@@ -782,155 +583,176 @@ footer p{
    Media Queries
    ========================================================================== */
 @media only screen and (max-width: 1450px) {
-#AboutR h2{
-    margin-bottom: 2%;
+    #AboutR h2 {
+        margin-bottom: 2%;
+    }
+
+    #AboutR p {
+        line-height: 2;
+    }
+
+    #PetitionLetter {
+        margin-left: 2%;  
+    }
+    #PetitionForm {
+        margin-right: 3%;
+    }
+
+    #Petition {
+        padding-bottom: 40%;
+    }
 }
-#AboutR p{
-    line-height: 2;
-}
-#PetitionLetter {
-    margin-left: 2%;  
-}
-#PetitionForm{
-    margin-right: 3%;
-}
-#Petition{
-    padding-bottom: 40%;
-}
-}
+
 @media only screen and (max-width: 1240px) {
-.wrapper {
-    margin: 0; 
+    .wrapper {
+        margin: 0; 
+    }
+
+    #AboutR p {
+        width: 88%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #PetitionLetter {
+        margin-left: 1%;  
+    }
+
+    #PetitionForm {
+        margin-right: 1%;
+    }
+
+    #Petition {
+        padding-bottom: 45%;
+    }
 }
-#AboutR p{
-    width: 88%;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#PetitionLetter {
-    margin-left: 1%;  
-}
-#PetitionForm{
-    margin-right: 1%;
-}
-#Petition{
-    padding-bottom: 45%;
-}
-}
+
 @media only screen and (max-width: 1045px) {
-    nav a{
-    margin: 0;
-}
+    nav a {
+        margin: 0;
+    }
+
     #AboutL {
-    display: none;
-}
-#AboutR{
-    width: 100%;
-}
-#AboutR p{
-    padding-bottom: 2%;
-}
-#Petition{
-   padding-bottom: 3%
+        display: none;
     }
-    #LetterContent{
-    margin: 0 0 5% 0;
-}
-#PetitionLetter {
-    float: none;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-#PetitionForm{
+
+    #AboutR {
+        width: 100%;
+    }
+
+    #AboutR p {
+        padding-bottom: 2%;
+    }
+
+    #Petition {
+       padding-bottom: 3%
+    }
+
+    #LetterContent {
+        margin: 0 0 5% 0;
+    }
+
+    #PetitionLetter {
         float: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 690px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    #PetitionForm {
+            float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 690px;
+    }
 }
-/*    .clutureBlocks {
-    width: 55%;
-    display: block;
-    margin: 5% 2% 2%;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-}
+
 @media only screen and (max-width: 680px) {
-header{
+    header {
     display: none;
-}
-    .TakeActionSocialBlocks{
+    }
+
+    .TakeActionSocialBlocks {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     }
-    #actionSocialShare{
+
+    #actionSocialShare {
     width: 100%;
     }
+
     .clutureBlocks {
     width: 80%;
     display: block;
     margin: 5% 2% 2%;
     margin-left: auto;
     margin-right: auto;
-}
-#Petition{
+    }
+
+    #Petition {
     padding-bottom: 40%;
-}
-  #PetitionForm{
+    }
+
+    #PetitionForm {
     text-align: center;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5%;
     float: right;
-}
-  #Petition button{
+    }
+
+    #Petition button {
     width: 95.5%;
     float: none;
     border: 0;
     margin-left: auto;
     margin-right: auto;
-}
-#email, #street1, #first_name, #last_name,#city,#zip{
+    }
+
+    #email, #street1, #first_name, #last_name,#city,#zip{
     width: 90%;
     margin-bottom: 30px;
     padding: 15px 10px 11px 10px;
     float: none;
     margin-left: auto;
     margin-right: auto;
-}
+    }
 
-#state {
+    #state {
     border: 0;
     width: 95.5%;
     margin-bottom: 7%;
     margin-left: auto;
     margin-right: auto;
     float: none;
-}
-#ToolKit{
+    }
+
+    #ToolKit {
     clear: both;
-}
-.ToolKitBlocks {
+    }
+
+    .ToolKitBlocks {
     width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-#Contact1{
+    }
+
+    #Contact1 {
     float: none;
     padding-bottom: 2%
-}
-#Contact2{
+    }
+
+    #Contact2{
     float: none;
-}
-#MediaPartners p{
+    }
+    #MediaPartners p{
     width: 95%;
-}
-}
+    }
+ }
 @media only screen and (min-width: 480px) {
 
 /* ====================
