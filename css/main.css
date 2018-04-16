@@ -205,9 +205,9 @@ h2 {
 
 #Update {
     width: 100%;
-    padding: 5% 0;
+    padding: 3% 0;
     background: #000 url("../img/brown_rice.png");
-    display: inline-block;
+    /*display: inline-block;*/
     color: #a3d4db;
     text-align: center;
     font-family: 'Lato', arial, sans-serif;
