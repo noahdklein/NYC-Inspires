@@ -344,6 +344,51 @@ h2 {
   to {opacity: 1}
 }
 
+#ToolKit{
+    width: 100%;
+    text-align: center;
+    background: #000 url("../img/brown_rice.png");
+    padding: 3% 0 3%;
+    clear: both;
+}
+
+#ToolKit h2{
+    color: #a3d4db;
+    padding-top: 5%;
+    margin-top: 0;
+}
+
+#ToolKit p{
+    color: #fff;
+}
+
+#ToolKitBlockContainer{
+
+}
+
+.ToolKitBlocks{
+    width: 29%;
+    display: inline-block;
+    margin: 2% 2% 2%;
+    vertical-align: top;
+}
+.ToolKitBlocks a{
+    color: red;
+    text-transform: uppercase;
+    padding-top: 5%;
+    display: block;
+    text-decoration: none;
+}
+.ToolKitBlocks span{
+    color: #A3D4DB;
+    font-size: .7em;
+    vertical-align: bottom;
+}
+
+.ToolKitBlocks img{
+    width: 100%;
+    height: auto;
+}
 #SocialShare {
     width: 70%;
     text-align: center;
