@@ -515,12 +515,12 @@ h2 {
 #Movement {
     width: 100%;
     text-align: center;
-    background: #000 url("../img/brown_rice.png");
+    background: #a3d4db url("../img/blue_rice.png");
     padding: 3% 0 3%;  
 }
 
 #Movement h2 {
-    color: #a3d4db;
+    color: #000;
     margin: 0;
 }
 
